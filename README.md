@@ -7,48 +7,20 @@
 
 [![Video Presentation]
 
----
 
-## Table of Contents
-- [Introduction](#introduction)
-- [SOC Roles & Incident Handling Reflection](#soc-roles--incident-handling-reflection)
-- [Installation & Data Preparation](#installation--data-preparation)
-- [Investigation Findings](#investigation-findings)
-- [Conclusion](#conclusion)
-- [References](#references)
-- [Video Presentation](#video-presentation)
-- [Appendix](#appendix)
 
----
+## 1. INTRODUCTION
+## 1.0 Overview 
+Security Operations Centers (SOCs) represent the operational backbone of an organization’s cybersecurity defense strategy, integrating technology, processes, and human expertise to detect, analyze, and respond to threats in real time. As cyber threats evolve in complexity, the SOC’s role in monitoring, investigating, and mitigating incidents has become vital for maintaining organizational resilience and trust.
+This report presents a practical SOC-oriented investigation using Splunk’s Boss of the SOC Version 3 (BOTSv3) dataset, a publicly available, pre-indexed capture-the-flag (CTF) exercise designed by Splunk to simulate realistic cybersecurity incidents. The dataset reflects a large-scale attack on a fictitious brewing company named Frothly, and it includes a diverse range of log sources such as network traffic, email exchanges, endpoint telemetry, and cloud service activity from Amazon Web Services (AWS) and Microsoft Azure environments.
+## 1.2 Objectives of the Investigation
+The main objective of this exercise was to establish a functioning Splunk environment on a Linux-based virtual machine, ingest and validate the BOTSv3 dataset, and analyze the data using Splunk’s Search Processing Language (SPL). Although the BOTSv3 challenge typically includes guided forensic and analytical questions, this report focuses on the infrastructure setup, SOC contextual reflection, and methodological approach underpinning effective incident investigation and response.
+## 1.3 Report Scope
+The scope of this report encompasses four major elements: (1) contextual understanding of SOC operations within cybersecurity defense, (2) reflection on SOC tiered roles and incident response methodologies, (3) documentation of the Splunk environment setup and dataset preparation, and (4) a concluding synthesis of lessons learned and recommendations for enhancing SOC operations.
+## 1.4 Assumptions 
+Assumptions include that the investigation environment represents a small-scale emulation of enterprise SOC operations, using local resources and limited system capacity, while maintaining adherence to professional standards of documentation and reporting.
 
-## Introduction
-
-### Overview
-The Boss of the SOC Version 3 (BOTSV3) dataset presents a comprehensive security incident simulation at Frothly, a fictional craft brewing company. This investigation applies Security Operations Center (SOC) methodologies to analyze a multi-stage cyber attack using Splunk Enterprise.
-
-### Objectives
-The primary objectives of this investigation are to:
-- Analyze security events across multiple data sources (network, endpoint, cloud)
-- Apply the Cyber Kill Chain framework to trace attacker activities
-- Demonstrate practical SOC analyst skills using Splunk SPL queries
-- Document findings following industry-standard incident response procedures
-
-### Scope
-This investigation focuses on:
-- **Dataset:** BOTSV3 (Boss of the SOC v3)
-- **Time Period:** [Specify the timeframe covered in logs]
-- **Data Sources:** Network traffic, Windows endpoints, AWS CloudTrail, Azure logs, email logs
-- **Question Level:** 300-level guided questions from the BOTSV3 CTF
-
-### Assumptions
-- All log data has been correctly ingested and indexed in Splunk
-- Timestamps are accurate and synchronized across data sources
-- The simulated environment represents a realistic enterprise network
-- Analysis is performed retrospectively with complete dataset visibility
-
----
-
-## SOC Roles & Incident Handling Reflection
+## 2. SOC ROLES & INCIDENT HANDLING REFLECTION
 
 ### SOC Tier Structure
 
