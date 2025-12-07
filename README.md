@@ -3,24 +3,25 @@
 **Author:** Toluwalase Emmanuel Oludipe 
 **Institution:** University of Plymouth  
 **Course:** COMP5002 Security Operations & Incident Management  
-**Date:** 
+**Date:**  
 
 [![Video Presentation]
-
-
 
 ## 1. INTRODUCTION
 ## 1.0 Overview 
 The Security Operations Centre (SOC) is the backbone of an organization’s cybersecurity strategy, uniting technology, processes, and human expertise to detect, analyze, and respond to threats in real time (IBM, 2021). The SOC team operates much like an emergency room, monitoring the pulse of the network infrastructure 24/7 and constantly sifting through massive volumes of data to identify anomalous behavior. Effective SOC analysts require extensive training and hands-on experience with diverse, realistic datasets to hone their investigative skills before encountering a real-world crisis.
 
-The Boss of the SOC Version 3 (BOTSv3) dataset, a publicly accessible, pre-indexed capture-the-flag (CTF) exercise created by Splunk to mimic actual cybersecurity incidents, is used in this report's practical SOC-oriented inquiry. A wide variety of log sources, including network traffic, email exchanges, endpoint telemetry, and cloud service activity from Amazon Web Services (AWS) and Microsoft Azure settings, are included in the collection, which depicts a massive attack on a business called Frothly.
-
+The Boss of the SOC Version 3 (BOTSv3) dataset, a publicly accessible, pre-indexed capture-the-flag (CTF) exercise created by Splunk to simulate actual cybersecurity incidents, is used in this report's practical SOC-oriented inquiry. A wide variety of log sources, including network traffic, email exchanges, endpoint telemetry, and cloud service activity from Amazon Web Services (AWS) and Microsoft Azure settings, are included in the collection, which depicts a massive attack on a business called Frothly.
 ## 1.2 Objectives of the Investigation
-The main objective of this exercise was to establish a functioning Splunk environment on a Linux-based virtual machine, ingest and validate the BOTSv3 dataset, and analyze the data using Splunk’s Search Processing Language (SPL). Although the BOTSv3 challenge typically includes guided forensic and analytical questions, this report focuses on the infrastructure setup, SOC contextual reflection, and methodological approach underpinning effective incident investigation and response.
+The exercise’s main objective is to establish a Splunk environment on a Linux-based virtual machine and analyse the data contained in the BOTSv3 dataset. Although the BOTSv3 exercise typically includes guided analytical questions, this report focuses on the infrastructure setup, SOC contextual reflection, and methodological approach underpinning the incident investigation.
 ## 1.3 Report Scope
-The scope of this report encompasses four major elements: (1) contextual understanding of SOC operations within cybersecurity defense, (2) reflection on SOC tiered roles and incident response methodologies, (3) documentation of the Splunk environment setup and dataset preparation, and (4) a concluding synthesis of lessons learned and recommendations for enhancing SOC operations.
+The scope of this report encompasses four major elements: 
+1. Contextual understanding of SOC operations within cybersecurity defense.
+2. Reflection on SOC tiered roles and incident response methodologies. 
+3. Documentation of the Splunk environment setup and dataset preparation. 
+4. Synthesis of lessons learned and recommendations for enhancing SOC operations.
 ## 1.4 Assumptions 
-Assumptions include that the investigation environment represents a small-scale emulation of enterprise SOC operations, using local resources and limited system capacity, while maintaining adherence to professional standards of documentation and reporting.
+The investigation environment represents a small-scale emulation of enterprise SOC operations, using local resources and limited system capacity, while maintaining adherence to professional standards of documentation and reporting.
 
 ## 2. SOC ROLES & INCIDENT HANDLING REFLECTION
 
