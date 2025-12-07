@@ -12,6 +12,7 @@
 ## 1. INTRODUCTION
 ## 1.0 Overview 
 The Security Operations Centre (SOC) is the backbone of an organization’s cybersecurity strategy, uniting technology, processes, and human expertise to detect, analyze, and respond to threats in real time (IBM, 2021). The SOC team operates much like an emergency room, monitoring the pulse of the network infrastructure 24/7 and constantly sifting through massive volumes of data to identify anomalous behavior. Effective SOC analysts require extensive training and hands-on experience with diverse, realistic datasets to hone their investigative skills before encountering a real-world crisis.
+
 The Boss of the SOC Version 3 (BOTSv3) dataset, a publicly accessible, pre-indexed capture-the-flag (CTF) exercise created by Splunk to mimic actual cybersecurity incidents, is used in this report's practical SOC-oriented inquiry. A wide variety of log sources, including network traffic, email exchanges, endpoint telemetry, and cloud service activity from Amazon Web Services (AWS) and Microsoft Azure settings, are included in the collection, which depicts a massive attack on a business called Frothly.
 
 ## 1.2 Objectives of the Investigation
