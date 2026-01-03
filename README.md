@@ -1,6 +1,6 @@
 # BOTSV3 Security Incident Investigation Report
 
-**Author:** Toluwalase Emmanuel Oludipe 
+**Author:** Toluwalase Emmanuel Oludipe
 **Institution:** University of Plymouth  
 **Course:** COMP5002 Security Operations & Incident Management  
 **Date:**  
