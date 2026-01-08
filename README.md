@@ -101,7 +101,7 @@ The BOTSv3 exercise provided practical insight into how SOC tier responsibilitie
 
 #### 2.2.1 Prevention
 
-This establishes the foundational security posture that precedes active threat engagement. It involves deploying security controls, applying hardening standards, and setting baseline configurations to minimise the attack surface (Johnson et al., 2019).
+This establishes the foundational security posture that precedes active threat engagement. It involves deploying security controls, applying hardening standards, and setting baseline configurations to minimise the attack surface [1].
 
 Prevention in the BOTSv3 scenario would centre on deploying endpoint protection, enforcing network segmentation, and configuring logging to support later detection [2]. These efforts are driven by Tier 3 analysts through security architecture design, vulnerability assessment, and forward-looking threat modelling.
 
