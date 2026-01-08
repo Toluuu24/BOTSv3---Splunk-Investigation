@@ -497,7 +497,7 @@ Tier 1 analysts need stronger training to spot subtle indicators like suspicious
 
 ### 5.4 Improvements for Detection and Response
 
-Strengthening defensive capability and reducing MTTD requires several improvements. Email security should include advanced threat protection to sandbox suspicious, macro-enabled attachments from external sources (Mahmoud et al., 2024). EDR must be deployed across all systems to quarantine Office-spawned processes, monitor temp-directory changes, and alert on non-standard listening ports [13].
+Strengthening defensive capability and reducing MTTD requires several improvements. Email security should include advanced threat protection to sandbox suspicious, macro-enabled attachments from external sources [15]. EDR must be deployed across all systems to quarantine Office-spawned processes, monitor temp-directory changes, and alert on non-standard listening ports [13].
 
 User and Entity Behavior Analytics (UEBA) should baseline normal admin-account creation and privilege-escalation patterns, escalating anomalies to Tier 2 [9].
 
