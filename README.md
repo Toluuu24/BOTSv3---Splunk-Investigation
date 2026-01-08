@@ -35,7 +35,7 @@ This repository contains the complete BOTSv3 Security Operations Center investig
 
 The Security Operations Centre (SOC) is the backbone of an organization's cybersecurity strategy, uniting technology, processes, and human expertise to detect, analyze, and respond to threats in real time [7]. The SOC team operates much like an emergency room, monitoring the pulse of the network infrastructure 24/7 and constantly sifting through massive volumes of data to identify anomalous behaviour.
 
-The BOTSv3 dataset—a public, pre-indexed Splunk CTF designed to simulate real cyber incidents—underpins this report's practical SOC analysis. It aggregates diverse logs, including network traffic, email activity, endpoint telemetry, and AWS/Azure cloud events, all capturing a large-scale attack on the company Frothly.
+The BOTSv3 dataset a public, pre-indexed Splunk CTF designed to simulate real cyber incidents underpins this report's practical SOC analysis. It aggregates diverse logs, including network traffic, email activity, endpoint telemetry, and AWS/Azure cloud events, all capturing a large-scale attack on the company Frothly.
 
 ### 1.2 Objectives of the Investigation
 
